@@ -1,4 +1,4 @@
-# ✅ Python For Loop - Complete Guide with Examples
+# ✅ Python For Loop 
 
 # 1️⃣ Loop through a list
 fruits = ["apple", "banana", "cherry"]
@@ -58,5 +58,31 @@ for color in colors:
     for item in items:
         print(color, item)
 
-# ✅ You can now run this entire script in VS Code
-# Save it as for_loop_examples.py and run with: python for_loop_examples.py
+
+# Example of a for loop in Python
+
+# Loop through a list
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print("Fruit:", fruit)
+
+print("\n--- Looping through dictionary ---")
+
+# Loop through a dictionary
+person = {
+    "name": "Alice",
+    "age": 25,
+    "city": "Lahore"
+}
+
+# Loop through keys (default)
+for key in person:
+    print("Key:", key)
+
+# Loop through values
+for value in person.values():
+    print("Value:", value)
+
+# Loop through key-value pairs
+for key, value in person.items():
+    print(f"Key: {key} => Value: {value}")
